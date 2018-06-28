@@ -10,12 +10,12 @@ public class BackButton : MonoBehaviour
 	int sceneIndex;	
 	 void start()
 	 {
-		 sceneIndex=SceneManager.GetActiveScene().buidIndex;
+		 sceneIndex=SceneManager.GetActiveScene().buildIndex;
 	 }
 	 
 	 void Update()
 	 {
-		 if(Input.GetKeyDown(Keycode.Escape))
+		 if(Input.GetKeyDown(KeyCode.Escape))
 		 {
 			 //go out of the application
 			 if(sceneIndex>0)
